@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Merriwaether";
+    src: url(../fonts/Merriweather/Merriweather-Bold.ttf);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ============================= main ======================== */
+.herosection {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.herosection article {
+line-height: 30px;
+width: 300px;
+}
+
+.herosection img {
+    width: 200px;
+}
+
+.download {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.subscribe {
+    border: solid grey 2px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.beautysection img {
+    width: 200px;
+}
+
+.beautysection {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.beautysection article {
+    line-height: 30px;
+    width: 300px;
+}
+
+.fishsection img{
+    width: 200px;
+}
+
+.fishsection {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.fishsection article {
+    line-height: 30px;
+    width: 300px;
+}
+
+.picturessection img {
+    width: 200px;
+}
+
+.picturessection {
+ text-align:center;
+ padding: 50px;
+ line-height: 30px;
+}
+
+.picturessection div {
+    display: flex;
+    gap: 100px;
+    justify-content:space-around
+}
+
+
+.collagesection img {
+    width: 500px;
+}
+
+.collagesection {
+    text-align:center;
+    padding: 50px;
+    line-height: 30px;
+}
+
+
+.collagesection div {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+   flex-wrap: wrap;
+   flex-direction:row;
+   justify-content:center;
+   padding-top: 20px;
+}
+
+.dillustrationssection {
+    text-align:center;
+    padding: 50px;
+    line-height: 30px;
+}
+
+.membership {
+    background-color: #d0eaff;
+    padding: 50px;
+    width: 300px;
+    height: 500px;
+    
+    
+}
+.membership ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.blau {
+    display: flex;
+    justify-content: center;
+}
+.membership h2 {
+    margin-bottom: 30px;
+}
+
+.suggestionsection {
+    display: flex;
+}
+
+.suggestionssection h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.onesuggest {
+    color: grey;
+}
+
+.email li {
+justify-content: center;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.socialm li {
+justify-content: center;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.ig {
+    color: rgb(196, 196, 44);
+}
+
+.tw {
+    color: rgb(51, 134, 228);
+}
+
+.yt {
+    color: brown;
+}
